@@ -1,0 +1,343 @@
+@media (max-width: 1399px)
+  .menu 
+    li
+      a
+        margin: 0 33px
+  .reason
+    .adventage_item
+      .text
+
+  .promo
+    h1
+      font-size: 50px
+    h2
+      font-size: 26px
+  .reason
+    .adventage_item
+      .text
+        .text_adv
+
+@media (max-width: 1199px)
+  .menu
+    li
+      a
+        font-size: 12px
+        margin: 0 12px
+  footer 
+    padding: 30px 0 31px 0
+    .footer_links
+      margin: 2% 0
+      height: 100%
+    .app_links
+      flex-direction: column
+      justify-content: space-evenly
+      height: 150px
+      width: 110px
+@media (max-width: 991px)
+  .menu
+    li
+      a
+        font-size: 12px
+        margin: 0 10px
+
+  .reason
+    .adventage_item
+      padding-top: 20px
+      flex-direction: column
+      .text
+        .text_adv
+          text-align: center
+          height: 53px
+          width: 100%
+          padding: 0
+        .descr
+          padding: 20px 0 0 0
+      .item_img
+        margin: 0 auto
+        padding-bottom: 20px
+
+  footer
+    .icons
+      height: 150px
+      flex-direction: column
+      align-items: center
+      justify-content: space-between
+  
+  .menu 
+    li > a
+      font-size: 12px
+      margin: 0 8px
+  .promo 
+    button.send_order
+      margin-top: 20px
+  
+  .subheader
+    .order_button
+      display: block
+      &.xs
+        display: none
+    
+@media (min-width: 768px)
+  .subheader
+    .order_button
+      display: block
+      &.xs
+        display: none
+  footer
+    .icons
+      top: 50%
+      transform: translateY(-50%)
+      position: absolute
+      &.xs
+        display: none
+    .app_links
+      position: absolute
+      top: 42%
+      transform: translateY(-50%)
+      right: 28px
+      &.xs
+        display: none
+    
+
+
+@media( max-width:767px )
+  nav
+    height: 51px
+    .menu
+      position: fixed
+      top: 0
+      left: -100%
+      width: 50%
+      height: 100vh
+      flex-direction: column
+      background-color: rgba(0, 0, 0, .8)
+      transition: 0.8s all
+      &_active
+        left: 0 
+      li
+        text-align: center
+        margin: 10px 0 
+        a
+          font-size: 20px  
+    .hamburger
+      position: absolute
+      display: block
+      right: 50px
+      top: 20px
+      width: 25px
+      span
+        display: block
+        background-color: white
+        height: 2px
+        width: 100%
+        margin-bottom: 6px
+        transition: 0.8s all
+      &_active
+        span
+          margin-bottom: -1px
+          &:nth-child(1)
+            transform: translateY(3px) rotate(-45deg)
+          &:nth-child(2)
+            display: none
+          &:nth-child(3)
+            transform: translateY(3px) rotate(45deg)
+  
+  .subheader
+    &_phone
+      display: none
+    .order_button
+      display: none
+      &.xs
+        display: block
+        margin: 0
+        margin-left: auto
+        height: 35px
+    .phone_call
+      margin-top: 5px
+
+  .reason
+    .adventage_item
+      flex-direction: column
+      .text
+        .descr
+          width: 400px
+          padding: 0
+          margin: 0 auto
+        .text_adv
+          text-align: center
+          font-size: 17px
+          height: 53px
+          width: 100%
+      .item_img
+        margin: 0 auto
+        padding-bottom: 20px
+
+  .double_picture
+    .car
+      width: 100%
+      img
+        width: 100%
+  footer
+    padding: 10px 10px
+    .icons
+      display: none
+      &.xs
+        display: flex
+        flex-direction: row
+        height: 32px
+        margin: 0 auto
+        margin-top: 20px
+    .app_links
+      display: none
+      &.xs
+        display: flex
+        justify-content: space-around
+        flex-direction: row
+        height: 30px
+        margin: 0 auto
+        margin-top: 20px
+        a
+          height: 30px
+
+@media (max-width: 576px)
+  nav
+    padding: 0
+    .hamburger
+      top: 20px
+      right: 30px
+    .menu
+      position: fixed
+      width: 80%
+      height: 100vh
+      &_active
+        left: 0 
+      li
+        text-align: center
+        margin: 10px 0 
+        a
+          font-size: 20px  
+
+
+  .promo
+    position: relative
+    height: 100vh
+    padding: auto 0
+    h1
+      font-size: 29px
+      padding: 0 20px
+    h2
+      font-size: 14px
+      margin-top: 20px
+      padding: 0 23px
+    .promo_descr
+      display: none
+    .promo_subdescr
+      display: none
+    button.send_order
+      margin-top: 60px
+      width: 210px
+      height: 50px
+
+
+  .subheader
+    position: absolute
+    z-index: 1
+    width: 100%
+    .wrapper_logo_subtitle
+      padding-left: 15px
+      a
+        margin: 0
+        img
+          height: 15px
+          margin-top: 25px
+      .subheader_text
+        display: none
+    .wrapper_button_phone
+      padding-right: 15px
+      p
+      .phone_call
+        font-size: 16px
+      .order_button.xs
+        width: 113px
+        .text_botton
+          font-size: 10px
+
+
+
+
+  .reason
+    .headtext
+      margin: 10px 0 0 0
+      font-size: 14px
+    .adventage_item
+      .text
+        .text_adv
+          font-size: 14px
+        .descr
+          width: 100%
+          font-size: 13px
+          padding-left: 20px
+          padding-right: 20px
+  
+  .mobile
+    .mobile_item
+      width: 320px
+    .headtext
+      font-size: 18px
+      margin: 10px 0
+  
+  .double_picture
+    .bg_grid
+      display: none
+    .subtitle
+      display: none
+    .text
+      color: white
+    .headtext
+      display: none
+  
+  .list
+    .headtext
+      font-size: 18px
+    .require_title
+      padding-left: 15px
+    .require_block
+      .require_list
+        li
+          &::before
+            right: 20px
+      .require_list
+        padding: 0 45px
+      .require_descr
+        padding-left: 20px
+  
+  .map
+    .adventage
+      margin-bottom: 0px
+    .headtext
+      margin-top: 0px
+      margin-bottom: 0px
+      font-size: 18px
+    .subtitle
+      font-size: 14px
+      margin: 0
+
+  footer
+    .footer_links
+      .three_item
+        li
+          margin: 0 5px
+      .five_item
+        flex-wrap: wrap
+
+
+
+
+
+
+
+
+
+
+
+
